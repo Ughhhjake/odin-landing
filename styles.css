@@ -139,9 +139,9 @@ h2 {
   max-height: 48px;
 }
 
-.modal-right {
-}
-
 .footer {
-
+  height: 124px;
+  background: darkgray;
+  color: darkmagenta;
+  font-size: 24px;
 }
