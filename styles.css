@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 128px;
+  padding: 8px 128px;
   margin: 0;
 }
 
@@ -41,10 +41,10 @@ body {
   background-color: darkmagenta;
   display: flex;
   justify-content: space-around;
+  padding-bottom: 16px;
 }
 
-button {
-  border: none;
+.button {
   border-radius: 8px;
   background: blue;
   color: white;
@@ -72,6 +72,8 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 0;
+  margin: 16px 0;
 }
 
 .images {
@@ -106,5 +108,40 @@ h2 {
   justify-content: flex-end;
   font-size: 34px;
   font-weight: bold;
+}
+
+.modal-space {
+  margin: 128px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+    background: lightgrey;
+    width: 950px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    display: flex;
+    padding: 16px;
+    gap: 16px;
+    justify-content:  space-around;
+    align-items: center;
+}
+
+.sign {
+  background: royalblue;
+  border-radius: 8px;
+  color: white;
+  padding: 8px 32px;
+  font-size: 16px;
+  max-height: 48px;
+}
+
+.modal-right {
+}
+
+.footer {
 
 }
