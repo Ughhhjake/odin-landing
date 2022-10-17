@@ -66,3 +66,22 @@ p {
   width: 300px;
   word-wrap: break-word;
 }
+
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.box {
+  border: 6px solid maroon;
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+}
